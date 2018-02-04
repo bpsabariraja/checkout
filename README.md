@@ -11,9 +11,12 @@ mvn clean install
 - JUnit
 
 ## API
-To checkout the cart need to call the following service. It will calculate the price based on Database.
+
 ### checkout cart API
-POST localhost:8082/checkout/cart
+To calculate the check out price based on value in DB.
+
+POST http://localhost:8082/checkout/cart
+
 #### JSON for checkout cart
 [
     {
@@ -25,3 +28,9 @@ POST localhost:8082/checkout/cart
         "quantity": 5
     }
 ]
+#####
+
+### product API
+To fetch all item available in DB
+
+GET http://localhost:8082/product/itemdetails
