@@ -29,7 +29,7 @@ public class CheckoutController {
 	
 	/**
 	 * 
-	 * Checout cart depends on the price and special price in DB.
+	 * Checkout cart depends on the price and special price in DB.
 	 * 
 	 * cartItemList will contain only the item and its total quantity available in cart for checkout.
 	 * 
