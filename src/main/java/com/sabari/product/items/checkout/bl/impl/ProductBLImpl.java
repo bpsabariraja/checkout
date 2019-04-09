@@ -18,8 +18,7 @@ import com.sabari.product.items.checkout.repository.ItemDetailsRepository;
 import com.sabari.product.items.checkout.repository.ItemSpecialPriceRepository;
 
 /**
- * 
- * ProductBLImpl manages the item with  data in internal DB for the prices.
+ *ProductBLImpl manages the item with  data in internal DB for the prices.
  * 
  * @author sabarirajaperiyasamy
  *
