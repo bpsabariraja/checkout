@@ -16,7 +16,7 @@ import com.sabari.product.items.checkout.dto.PriceCartDTO;
 public interface CheckoutBL {
 
 	/**
-	 * Calculates the item price associate with the DB price 
+	 * Calculate the item price associate with the DB price 
 	 * 
 	 * @param cartItemList
 	 * @return
