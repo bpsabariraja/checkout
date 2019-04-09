@@ -71,7 +71,6 @@ public class CheckoutBLImpl implements CheckoutBL{
 		
 		if(!isValid){
 			checkOutDto = new CheckoutDTO();
-
 			checkOutDto.setResponseCode(ERROR_CODE);
 			checkOutDto.setResponseMessage("Invalid UPC Code, Kindly check the product added");
 	
